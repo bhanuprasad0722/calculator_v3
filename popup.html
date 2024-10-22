@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quickbit Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <p class="branding">Welcome to Quickbit Solutions</p>
+    <p class="calculator-title">Domestic Calculator</p>
+  </div>
+  
+  <div class="calculator">
+    <div class="display">
+      <input type="text" id="output" readonly>
+    </div>
+    
+    <div class="buttons">
+      <button class="num">7</button>
+      <button class="num">8</button>
+      <button class="num">9</button>
+      <button class="op">/</button>
+
+      <button class="num">4</button>
+      <button class="num">5</button>
+      <button class="num">6</button>
+      <button id="multiply">x</button>
+
+      <button class="num">1</button>
+      <button class="num">2</button>
+      <button class="num">3</button>
+      <button class="op">+</button> 
+
+      <button class="num">0</button>
+      <button class="num">.</button>
+      <button id="equals">=</button> 
+      <button class="op">-</button>
+    </div>
+
+    <!-- Control buttons -->
+    <div class="controls">
+      <button id="clear">C</button>
+      <button id="delete">DEL</button>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2024 Quickbit Solutions</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
