@@ -7,14 +7,14 @@
       "default_popup": "popup.html",
       "default_icon":
       {
-        "16": "calci_16x16.png",
-        "48": "calci_48x48.png",
-        "128": "calci_128x128.png"
+        "16": "calci16.png",
+        "48": "calci48.png",
+        "128": "calci128.png"
       }
     },
     "permissions": ["storage"],
      "icons": {
-    "128": "calci_128x128.png"
+    "128": "calci128.png"
   }
 }
   
